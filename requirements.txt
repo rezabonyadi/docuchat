@@ -1,0 +1,6 @@
+langchain
+chromadb
+transformers
+jupyter
+streamlit
+python-docx
