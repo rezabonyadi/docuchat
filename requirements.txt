@@ -1,6 +1,9 @@
-langchain
+pydantic==1.10.7
+langchain==0.0.174
 chromadb
+scipy
 transformers
+sentence_transformers
 jupyter
 streamlit
 python-docx

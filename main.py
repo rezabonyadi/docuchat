@@ -49,12 +49,11 @@ tab_db, tab_qa = st.tabs(["Setup embedding database", "Question and answering"])
 
 ######################## Building db tab
 button_build_ds = tab_db.button("Build dataset embeddings", use_container_width=True, key='start_build_db')
-num_sharepoint_files = tab_db.slider('Number of documents from SharePoint', 0, 500, 10)
 onedrive_folder = st.sidebar.text_input('Onedrive address', """C:/Users/rezabonyadi/OneDrive - Microsoft/Documents/projects/""")
 
 if button_build_ds:    
     with st.spinner('Reading docs...'):
-        build_datasets.get_docs(num_sharepoint_files, onedrive_folder, docs_folder)
+        build_datasets.get_docs(onedrive_folder, docs_folder)
         st.success('Done reading!')
 
     with st.spinner('Splitting and embedding documents...'):
