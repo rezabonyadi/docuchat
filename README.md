@@ -1,11 +1,11 @@
-# docuchat
+# Document chat on a CPU (and an old one) 
+
+This repository is an example of how you can build a chatbot that runs on-device and uses a consumer CPU only (not a high-end M1, but a normal i5 CPU), and lets you chat with your documents.
 
 ![demo_docuChat_0](https://github.com/rezabonyadi/docuchat/assets/25924343/4e97b567-bc87-42e2-af05-93467286162b)
 
  
-This repository is an example of how you can build a chatbot that runs on-device and uses a consumer CPU only (not a high-end M1, but a normal i5 CPU), and lets you chat with your documents.
-
-Quick example: See the Jupyter notebook.
+Quick example: See the Jupyter notebook "docu-chat-on-CPU.ipynb".
 
 # The chat system with graphics:
  
@@ -33,7 +33,7 @@ You will see the following screen in your browser:
 ![image](https://github.com/rezabonyadi/docuchat/assets/25924343/840e12b0-63d8-4c19-8678-8fbf311c5946)
 
 In the "Onedrive address" text box in the left, provide the address to a folder where you have some docx files you want to chat against.
-Then click on "BUild dataset embedding" button. This will read your docx files from that folder, creates another folder (with the address "Docs address"), and saves those docx as text files in that folder. It then embeds them and creates a vector db for you in the "db" folder.
+Then click on "Build dataset embedding" button. This will read your docx files from that folder, creates another folder (with the address "Docs address"), and saves those docx as text files in that folder. It then embeds them and creates a vector db for you in the "db" folder.
 
 ![image](https://github.com/rezabonyadi/docuchat/assets/25924343/e2ce35a8-028f-440c-b167-8066b62748bb)
 
