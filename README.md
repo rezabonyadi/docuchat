@@ -16,3 +16,6 @@ And install the requirements:
 
 pip install -r requirements.txt
 
+
+![image](https://github.com/rezabonyadi/docuchat/assets/25924343/840e12b0-63d8-4c19-8678-8fbf311c5946)
+
